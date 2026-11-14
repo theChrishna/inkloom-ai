@@ -1,0 +1,286 @@
+{
+  "org": {
+    "name": "Northbeam Cloud (fictional B2B SaaS)",
+    "demo": true,
+    "as_of": "2026-11-14"
+  },
+  "palette": [
+    {
+      "name": "Navy",
+      "hex": "#0B2545"
+    },
+    {
+      "name": "Teal",
+      "hex": "#13A89E"
+    },
+    {
+      "name": "Sand",
+      "hex": "#F4EFE6"
+    },
+    {
+      "name": "Charcoal",
+      "hex": "#1F2933"
+    },
+    {
+      "name": "White",
+      "hex": "#FFFFFF"
+    },
+    {
+      "name": "Coral",
+      "hex": "#FF6B57"
+    }
+  ],
+  "fonts": [
+    "Sora",
+    "Inter"
+  ],
+  "clauses": [
+    {
+      "code": "TONE-01",
+      "category": "tone",
+      "text": "Write in a professional, confident, plain-English voice. No slang, no emojis, and no exclamation marks in customer emails.",
+      "do": [
+        "We are happy to help."
+      ],
+      "dont": [
+        "Hey guys!! This is super awesome lol"
+      ]
+    },
+    {
+      "code": "TONE-02",
+      "category": "tone",
+      "text": "Avoid generic filler phrases such as 'in today's fast-paced world' or 'unlock the power of'.",
+      "do": [
+        "Sync keeps your files identical on every device."
+      ],
+      "dont": [
+        "In today's fast-paced world, unlock the power of Sync."
+      ]
+    },
+    {
+      "code": "TERM-01",
+      "category": "terminology",
+      "text": "Use 'Northbeam Sync' at first mention and 'Sync' afterwards. Never write 'NB Sync' or 'NorthbeamSync'.",
+      "do": [
+        "Northbeam Sync"
+      ],
+      "dont": [
+        "NB Sync",
+        "NorthbeamSync"
+      ]
+    },
+    {
+      "code": "CLAIM-01",
+      "category": "promotional_claim",
+      "text": "Do not use rankings or superlatives ('#1', 'best', 'leading', 'world-class') unless an approved fact supports them.",
+      "do": [
+        "Trusted by over 400 customers."
+      ],
+      "dont": [
+        "India's #1 platform"
+      ]
+    },
+    {
+      "code": "CLAIM-02",
+      "category": "promotional_claim",
+      "text": "Do not describe service levels as guaranteed. Refer to the SLA instead.",
+      "do": [
+        "99.9% monthly uptime, backed by our SLA."
+      ],
+      "dont": [
+        "99.99% uptime, guaranteed."
+      ]
+    },
+    {
+      "code": "CLAIM-03",
+      "category": "promotional_claim",
+      "text": "Customer counts, customer names and testimonials may be used only if an approved fact supports them.",
+      "do": [
+        "Over 400 customers"
+      ],
+      "dont": [
+        "Used by 3 of the top 5 banks"
+      ]
+    },
+    {
+      "code": "VIS-01",
+      "category": "visual",
+      "text": "Use only brand palette colours (Navy, Teal, Sand, Charcoal, White, Coral).",
+      "do": [],
+      "dont": [
+        "Pure red #FF0000"
+      ]
+    },
+    {
+      "code": "VIS-02",
+      "category": "visual",
+      "text": "Approved fonts: Sora for headings, Inter for body text. No other fonts.",
+      "do": [
+        "Sora",
+        "Inter"
+      ],
+      "dont": [
+        "Comic Sans MS"
+      ]
+    },
+    {
+      "code": "A11Y-01",
+      "category": "accessibility",
+      "text": "Text must meet WCAG 2.2 AA contrast (4.5:1, or 3:1 for large text). Every image needs meaningful alt text.",
+      "do": [
+        "alt='Dashboard showing sync status'"
+      ],
+      "dont": [
+        "alt='image'"
+      ]
+    },
+    {
+      "code": "CONF-01",
+      "category": "confidentiality",
+      "text": "Never mention unreleased products, internal codenames, or client names under NDA in public content.",
+      "do": [],
+      "dont": []
+    },
+    {
+      "code": "DISC-01",
+      "category": "ai_disclosure",
+      "text": "AI-generated testimonials or endorsements must carry a visible AI-generated label. (Optional rule pack.)",
+      "do": [],
+      "dont": []
+    }
+  ],
+  "facts": [
+    {
+      "code": "FACT-07",
+      "statement": "Northbeam Sync SLA: 99.9% monthly uptime",
+      "owner": "Legal",
+      "valid_from": "2026-01-01",
+      "valid_until": "2027-03-31",
+      "visibility": "public"
+    },
+    {
+      "code": "FACT-08",
+      "statement": "Northbeam is SOC 2 Type II certified",
+      "owner": "Security",
+      "valid_from": "2025-07-01",
+      "valid_until": "2027-06-30",
+      "visibility": "public"
+    },
+    {
+      "code": "FACT-09",
+      "statement": "Northbeam Sync Starter plan costs $12 per user per month",
+      "owner": "Sales",
+      "valid_from": "2026-01-01",
+      "valid_until": "2026-10-31",
+      "visibility": "public"
+    },
+    {
+      "code": "FACT-10",
+      "statement": "Northbeam Sync Starter plan costs $15 per user per month",
+      "owner": "Sales",
+      "valid_from": "2026-11-01",
+      "valid_until": "2027-10-31",
+      "visibility": "public"
+    },
+    {
+      "code": "FACT-11",
+      "statement": "Northbeam has over 400 customers",
+      "owner": "Marketing",
+      "valid_from": "2026-09-01",
+      "valid_until": "2027-01-31",
+      "visibility": "public"
+    },
+    {
+      "code": "FACT-12",
+      "statement": "Sync mobile app launches in Q2 2027",
+      "owner": "Product",
+      "valid_from": "2026-10-01",
+      "valid_until": "2027-06-30",
+      "visibility": "internal"
+    }
+  ],
+  "terms": [
+    {
+      "code": "TERM-01",
+      "term": "Northbeam Sync",
+      "kind": "preferred"
+    },
+    {
+      "code": "TERM-20",
+      "term": "NB Sync",
+      "kind": "banned",
+      "replacement": "Northbeam Sync"
+    },
+    {
+      "code": "TERM-21",
+      "term": "NorthbeamSync",
+      "kind": "banned",
+      "replacement": "Northbeam Sync"
+    },
+    {
+      "code": "TERM-22",
+      "term": "revolutionary",
+      "kind": "banned",
+      "replacement": null
+    },
+    {
+      "code": "TERM-23",
+      "term": "world-class",
+      "kind": "banned",
+      "replacement": null
+    },
+    {
+      "code": "TERM-31",
+      "term": "Project Atlas",
+      "kind": "internal",
+      "note": "unreleased mobile app codename"
+    },
+    {
+      "code": "TERM-32",
+      "term": "Meridian Bank",
+      "kind": "internal",
+      "note": "client under NDA"
+    },
+    {
+      "code": "TERM-33",
+      "term": "Project Lighthouse",
+      "kind": "internal",
+      "note": "unreleased analytics product"
+    }
+  ],
+  "ai_filler_phrases": [
+    "in today's fast-paced world",
+    "unlock the power of",
+    "game-changer",
+    "in the ever-evolving landscape"
+  ],
+  "users": [
+    {
+      "email": "priya@northbeam.demo",
+      "role": "owner"
+    },
+    {
+      "email": "rahul@northbeam.demo",
+      "role": "reviewer"
+    },
+    {
+      "email": "arjun@northbeam.demo",
+      "role": "creator"
+    },
+    {
+      "email": "meera@agency.demo",
+      "role": "agency"
+    },
+    {
+      "email": "lead@northbeam.demo",
+      "role": "viewer"
+    }
+  ],
+  "second_org_for_rls_tests": {
+    "name": "Other Corp",
+    "users": [
+      "eve@othercorp.demo"
+    ],
+    "note": "seed one clause and one internal fact; no Northbeam user may read them"
+  }
+}
